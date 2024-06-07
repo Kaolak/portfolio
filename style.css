@@ -98,6 +98,10 @@ body.dark{
     transition: all 0.3s;
 }
 
+.nav-item a{
+    color: white;
+}
+
 .nav-item:hover{
     transform: scale(1.1);
 }
@@ -107,7 +111,7 @@ body.dark{
     transform: scale(1.2);
 }
 
-.nav-item.dark{
+.nav-item.dark a{
     color: var(--main-bg-color);
 }
 
