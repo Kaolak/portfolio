@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- splide -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-intersection@0.2.0/dist/js/splide-extension-intersection.min.js" integrity="sha256-JKADUEtliYhbM/9Tqt7qaeQb7T2XmLEKqJ068n6tcq0=" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5e2baecc0a.js" crossorigin="anonymous"></script>
+    <title>Esteban Pinto</title>
+</head>
+<body>
+    <!-- <header>
+        <h1>Esteban Pinto</h1>
+    </header> -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-img">
+            <img src="img\unsa-whiteM.png" alt="">
+            <i id="hamburger" class="fa-solid fa-bars"></i>
+        </div>
+        
+        <div id="sidebar-content" class="sidebar-content">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a href="#educacion">Educación</a></li>
+                    <li class="nav-item"><a href="#proyectos">Proyectos</a></li>
+                </ul>
+            </nav>
+            <section class="social">
+                <ul>
+                    <li><a href="https://github.com/Kaolak" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github social-item"></i>
+                    </a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/esteban-pinto/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in social-item"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=mailto:"kaolak3@gmail.com">
+                            <i class="fa-solid fa-envelope social-item"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        
+    </div>
+    
+    <div id="main-content" class="content">
+        <section id="inicio">
+            <img src="img/profile-nobg.png" alt="profile-picture">
+            <div class="bg-6">
+                    <div class="glitch" data-text="ESTEBAN PINTO">ESTEBAN PINTO</div>
+            </div>
+                
+        </section>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy Esteban Pinto, tengo 21 años, y soy un estudiante de Licenciatura en Análisis de Sistemas de la Universidad Nacional de Salta.
+                Me especializo en el desarrollo backend, arquitectura de software y DevOps.
+                Tengo experiencia trabajando con Django, SpringBoot y NodeJS. 
+                He participado en la publicación de artículos relacionados a la ciencia de datos utilizando Python.
+                Estoy interesado en proyectos relacionados con la construcción de aplicaciones web y la implementación de infraestructuras escalables y automatizadas.
+                Actualmente estoy cursando el programa Oracle Next Education en Alura Latam, en la rama Back-End, aprendiendo sobre el framework Spring.
+            </p>
+            <div id="technology-list" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="img/html.png" alt="HTML"></li>
+                        <li class="splide__slide"><img src="img/css.webp" alt="CSS"></li>
+                        <li class="splide__slide"><img src="img/javascript.webp" alt="JavaScript"></li>
+                        <li class="splide__slide"><img src="img/react.webp" alt="React"></li>
+                        <li class="splide__slide"><img src="img/node.png" alt="NodeJS"></li>
+                        <li class="splide__slide"><img src="img/mongodb.png" alt="MongoDB"></li>
+                        <li class="splide__slide"><img src="img/java.png" alt="Java"></li>
+                        <li class="splide__slide"><img src="img/spring.png" alt="Spring"></li>
+                        <li class="splide__slide"><img src="img/python.webp" alt="Python"></li>
+                        <li class="splide__slide"><img src="img/sql.png" alt="SQL"></li>
+                        <li class="splide__slide"><img src="img/git.png" alt="Git"></li>
+                        <li class="splide__slide"><img src="img/github.png" alt="GitHub"></li>
+                        <li class="splide__slide"><img src="img/django.png" alt="Django"></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+        <section id="educacion">
+            <h2>Educación</h2>
+            <ul>
+                <li>
+                    <div class="img-container">
+                        <img src="img/unsa-logo.png" alt="">
+                    </div>
+                    
+                    <div class="description">
+                        <h3><i class="fa-solid fa-book-bookmark"></i>Licenciatura en Análisis de Sistemas</h3>
+                        <p><i class="fa-solid fa-building-columns"></i>Universidad Nacional de Salta</p>
+                        <p><i class="fa-regular fa-calendar"></i>2020 - Actualidad</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img-container">
+                        <img src="img/one-logo.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3><i class="fa-solid fa-book-bookmark"></i>Oracle Next Education</h3>
+                        <p><i class="fa-solid fa-building-columns"></i>Alura Latam</p>
+                        <p><i class="fa-regular fa-calendar"></i>2024 - Actualidad</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div id="projects" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="container">
+                                    <img src="img/reserva-total.png" alt="Reserva Total">
+                                    <div class="overlay" >
+                                        <h3>Reserva Total</h3>
+                                        <div class="text">
+                                            <p>Aplicación web para la reserva de canchas en predios deportivos con Django y Postrges, con pagos mediante MercadoPago. 
+                                                Desarrollada bajo la metodología Scrum.</p>
+                                        </div>
+                                        <a href="https://softwarecancha.onrender.com/" target="_blank" rel="noopener noreferrer"><button type="button" class="link-project"><i class="fa-solid fa-link"></i></button></a>
+                                        <div id="tec-used">
+                                            <img src="img/django.png" alt="django">
+                                            <img src="img/python.webp" alt="python">
+                                            <img src="img/postgres.png" alt="postgres">
+                                        </div>
+                                    </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide" >
+                            <div class="container">
+                                    <img src="img/literalura-full.png" alt="Challenge Literalura">
+                                    <div class="overlay" >
+                                        <h3>Challenge Literalura</h3>
+                                        <div class="text">
+                                            <p>Consulta a API de libros (Gutendex) y almacenamiento en base de datos Postgres, a través de JPA, en Spring.
+                                                 Diseño de aplicación en capas y Maven como gestor de dependencias.
+                                                 Proyecto como parte del programa ONE.</p>
+                                        </div>
+                                        <a href="https://github.com/Kaolak/one-challenge3" target="_blank" rel="noopener noreferrer"><button type="button" class="link-project"><i class="fa-solid fa-link"></i></button></a>
+                                        <div id="tec-used">
+                                            <img src="img/spring.png" alt="spring">
+                                            <img src="img/java.png" alt="java">
+                                            <img src="img/postgres.png" alt="postgres">
+                                        </div>
+                                    </div>
+                            </div>  
+                        </li>
+                        <li class="splide__slide">
+                            <div class="container">
+                                    <img src="img/1CIEIA.png" alt="Articulo Congreso">
+                                    <div class="overlay" >
+                                        <h3>El impacto de la música en la salud mental a través de la Ciencia de Datos</h3>
+                                        <div class="text">
+                                            <p>Artículo sobre el efecto de la música en la salud mental, utilizando SVC, SMOTE y Selection Features en Python, presentado en el 1er Congreso Internacional de Estadística e Ingeniería Aplicada.</p>
+                                        </div>
+                                        <a href="https://1cieia.ing.unsa.edu.ar/" target="_blank" rel="noopener noreferrer"><button type="button" class="link-project"><i class="fa-solid fa-link"></i></button></a>
+                                        <div id="tec-used">
+                                            <img src="img/python.webp" alt="python">
+                                        </div>
+                                    </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="my-slider-progress">
+                    <div class="my-slider-progress-bar"></div>
+                  </div>
+                </div>
+            </div>
+            
+        </section>
+        <button id="mode-change">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <!-- <footer>
+            <p>Esteban Pinto - 2024</p>
+        </footer> -->
+    </div>
+    
+    <script>
+        new Splide( '#technology-list',{
+            perPage: 5,
+            type   : 'loop',
+            gap: '0.75rem',
+            padding: 1,
+            fixedWidth : '75px',
+            focus  : 0,
+            omitEnd: false,
+            arrows: false,
+            pagination: false,
+            autoScroll: {
+            speed: 0.8,
+            rewind: true,
+            },
+            } ).mount(window.splide.Extensions);
+
+        var projects = new Splide('#projects',{
+            perPage: 1,
+            autoScroll: false,
+            type: 'loop',
+            autoplay: 'pause',
+            interval: 3000,
+            intersection: {
+                inView: {
+                autoplay: true,
+                },
+                outView: {
+                autoplay: false,
+                },
+            },
+            pagination: false,
+            omitEnd: false,
+        })
+        
+        var bar    = projects.root.querySelector( '.my-slider-progress-bar' );
+  
+        // Updates the bar width whenever the carousel moves:
+        projects.on( 'mounted move', function () {
+            var end  = projects.Components.Controller.getEnd() + 1;
+            var rate = Math.min( ( projects.index + 1 ) / end, 1 );
+            bar.style.width = String( 100 * rate ) + '%';
+        } );
+
+        projects.mount(window.splide.Extensions);
+      </script>
+
+      <script>
+        let hamburger = document.getElementById('hamburger');
+
+        hamburger.addEventListener('click', () => {
+            let sidebar = document.getElementById('sidebar-content');
+            sidebar.classList.toggle('active');
+            let content = document.getElementById('main-content');
+            content.classList.toggle('desactive');
+        });
+        
+        let navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                let sidebar = document.getElementById('sidebar-content');
+                sidebar.classList.toggle('active');
+                let content = document.getElementById('main-content');
+                content.classList.toggle('desactive');
+            });
+        });
+      </script>
+      <script>
+        let modeChange = document.getElementById('mode-change');
+        modeChange.addEventListener('click', () => {
+            let body = document.querySelector('body');
+            let sidebar = document.getElementById('sidebar');
+            let icon = document.querySelector('#mode-change i');
+            let sections = document.querySelectorAll('section');
+            let navItems = document.querySelectorAll('.nav-item');
+            let socialItems = document.querySelectorAll('.social-item');
+            let content = document.getElementById('main-content');
+            let glitch = document.querySelector('.glitch');
+            let bg_6 = document.querySelector('.bg-6');
+            let imgInicio = document.querySelector('.sidebar-img img');
+            let imgsEducacion = document.querySelectorAll('#educacion img');
+            let buttonChange = document.getElementById('mode-change');
+            let hamburger = document.getElementById('hamburger');
+            if (icon.classList.contains('fa-sun')) {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            } else {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            }
+            body.classList.toggle('dark');
+            sidebar.classList.toggle('dark');
+            hamburger.classList.toggle('dark');
+            content.classList.toggle('dark');
+            glitch.classList.toggle('dark');
+            bg_6.classList.toggle('dark');
+            imgInicio.classList.toggle('dark');
+            buttonChange.classList.toggle('dark');
+            imgsEducacion.forEach(img => {
+                img.classList.toggle('dark');
+            });
+            sections.forEach(section => {
+                section.classList.toggle('dark');
+            });
+            navItems.forEach(item => {
+                item.classList.toggle('dark');
+            });
+            socialItems.forEach(item => {
+                item.classList.toggle('dark');
+            });
+        });
+
+
+      </script>
+</body>
+</html>
